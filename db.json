@@ -1,0 +1,76 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nomeProduto": "pao de mel artesanal",
+      "dataCompra": "28/11/2022",
+      "quantidade": "1",
+      "preco": "2.25",
+      "dataValidade": ""
+    },
+    {
+      "id": "2",
+      "nomeProduto": "pao panco integral 380gr",
+      "dataCompra": "28/11/2022",
+      "quantidade": "1",
+      "preco": "10.49",
+      "dataValidade": ""
+    },
+    {
+      "id": "3",
+      "nomeProduto": "leite ninho",
+      "dataCompra": "28/11/2022",
+      "quantidade": "1L",
+      "preco": "7.29",
+      "dataValidade": ""
+    },
+    {
+      "id": "4",
+      "nomeProduto": "requeijão vigor 200gr",
+      "dataCompra": "28/11/2022",
+      "quantidade": "1",
+      "preco": "7.99",
+      "dataValidade": ""
+    },
+    {
+      "nomeProduto": "Patrick Soares",
+      "dataCompra": "",
+      "quantidade": 0,
+      "preco": 0,
+      "dataValidade": "",
+      "id": "n-uer39"
+    },
+    {
+      "nomeProduto": "arroz",
+      "dataCompra": "2022-10-20",
+      "quantidade": 5,
+      "preco": 23.99,
+      "dataValidade": "",
+      "id": "fdmuAFu"
+    },
+    {
+      "nomeProduto": "caneta",
+      "dataCompra": "2022-02-01",
+      "quantidade": 5,
+      "preco": 1,
+      "dataValidade": "",
+      "id": "A2eCKLr"
+    },
+    {
+      "nomeProduto": "Patrick Soares",
+      "dataCompra": "",
+      "quantidade": 0,
+      "preco": 0,
+      "dataValidade": "",
+      "id": "B_W9pvf"
+    },
+    {
+      "nomeProduto": "Patrick Soares",
+      "dataCompra": "",
+      "quantidade": 0,
+      "preco": 0,
+      "dataValidade": "",
+      "id": "pu0JWqm"
+    }
+  ]
+}

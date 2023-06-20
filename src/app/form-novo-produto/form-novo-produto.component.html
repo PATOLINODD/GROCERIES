@@ -1,0 +1,27 @@
+<section class="container">
+  <form action="" class="formProdutos" (ngSubmit)="enviarDados()">
+    <div class="form-field">
+      <label for="" class="form-field__label">nome produto: </label>
+      <input type="text" placeholder="nome produto" class="form-field__input" [(ngModel)]="produto.nomeProduto" name="nomeProduto"/>
+    </div>
+    <div class="form-field">
+      <label for="" class="form-field__label">data de compra: </label>
+      <input type="date" class="form-field__input"  [(ngModel)]="produto.dataCompra" name="dataCompra"/>
+    </div>
+    <div class="form-field">
+      <label for="" class="form-field__label">quantidade: </label>
+      <input type="number" class="form-field__input"  [(ngModel)]="produto.quantidade" name="quantidade"/>
+    </div>
+    <div class="form-field">
+      <label for="" class="form-field__label">preço: </label>
+      <input type="number" class="form-field__input"  [(ngModel)]="produto.preco" name="preco"/>
+    </div>
+    <div class="form-field">
+      <label for="" class="form-field__label">data de validade: </label>
+      <input type="date" class="form-field__input"  [(ngModel)]="produto.dataValidade" name="dataValidade"/>
+    </div>
+    <div class="botao-wrapper">
+      <button type="submit" class="botao">ENVIAR</button>
+    </div>
+  </form>
+</section>

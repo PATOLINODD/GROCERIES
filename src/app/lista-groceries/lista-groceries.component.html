@@ -1,0 +1,24 @@
+<h2 class="titulo">PRODUTOS</h2>
+<table class="tabela">
+  <thead class="tabela__cabecalho">
+    <th class="tabela__cabecalho__conteudo">nome do produto</th>
+    <th class="tabela__cabecalho__conteudo">data da compra</th>
+    <th class="tabela__cabecalho__conteudo">data de validade</th>
+    <th class="tabela__cabecalho__conteudo">preco R$</th>
+    <th class="tabela__cabecalho__conteudo">quantidade</th>
+    <th class="tabela__cabecalho__conteudo">editar</th>
+  </thead>
+  <tbody *ngIf="produtos?.length > 0; else produtosVazio">
+    <tr *ngFor="let produto of produtos" class="tabela__linha">
+      <td class="tabela__linha__conteudo">{{ produto?.nomeProduto }}</td>
+      <td class="tabela__linha__conteudo">{{ produto?.dataCompra }}</td>
+      <td class="tabela__linha__conteudo">{{ produto?.dataValidade }}</td>
+      <td class="tabela__linha__conteudo">{{ produto?.preco }}</td>
+      <td class="tabela__linha__conteudo">{{ produto?.quantidade }}</td>
+      <td class="tabela__linha__conteudo">
+        <button class="tabela__linha__conteudo__editar" (click)="editarProduto(produto)">editar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<ng-template #produtosVazio> não existe produtos cadastrados </ng-template>
